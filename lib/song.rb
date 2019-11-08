@@ -33,6 +33,7 @@ class Song
     result
   end
   
+<<<<<<< HEAD
   def self.find_or_create_by_name(title)
     #either return a matching song instance with that name or create a new song with the name and return the song instance
     result = self.find_by_name(title)
@@ -70,5 +71,7 @@ class Song
   def self.destroy_all
     self.all.clear
   end
+=======
+>>>>>>> 3cd1a9eb8e632b0b8a8812fdcf1e43e17aedfda9
   
 end
